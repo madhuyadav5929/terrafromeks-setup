@@ -6,7 +6,7 @@ terraform {
     }
   }
 backend "s3" {
-  bucket         = "ekscluster5929"
+  bucket         = "eks-cluster144"
   key            = "k8s-eksctl"
   region         = "us-east-1"
   dynamodb_table = "aws-locking"
